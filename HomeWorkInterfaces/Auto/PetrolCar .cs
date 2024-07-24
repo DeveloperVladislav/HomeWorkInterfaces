@@ -9,6 +9,10 @@ namespace HomeWorkInterfaces.Auto
     public class PetrolCar : TransportCar<int>
     {
 		public string Name { get; set; }
+		public PetrolCar()
+		{
+
+		}
 		public PetrolCar(string name)
 		{
 			Name = name;
